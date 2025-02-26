@@ -35,6 +35,10 @@ h1 {
   line-height: 1.1;
 }
 
+h1:hover {
+  text-shadow: 0 0 10px #00ff88, 0 0 20px #00f7ff;
+}
+
 #app {
   max-width: 1280px;
   margin: 0 auto;
@@ -42,7 +46,7 @@ h1 {
   text-align: center;
 }
 
-.logo {
+/* .logo {
   height: 6em;
   padding: 1.5em;
   will-change: filter;
@@ -61,7 +65,7 @@ h1 {
 
 .read-the-docs {
   color: #888;
-}
+} */
 
 button {
   border-radius: 8px;
